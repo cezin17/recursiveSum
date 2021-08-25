@@ -1,0 +1,9 @@
+html{
+    height: 100vh;
+}
+
+#result2 {
+    border: 0px;
+    background: #f0f8ff00;
+    color: green;
+}

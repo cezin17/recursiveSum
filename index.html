@@ -1,31 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=div, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Recursive Sum</title>
-    </head>
-    <body>
+</head>
+
+<body>
     <div align="center">
         <div>
-        <input placeholder="" id="NumberOne" type="number" value="" oninput="calcular()">
-        <div>
-            <label>sum of all numbers from 1 to </label><br>
-            <input id="result" type="number" disabled="" placeholder="" value="">
-        </div>
+            <label>Input</label><br>
+            <input placeholder="" id="NumberOne" type="number" value="" oninput="calcular()">
+            <div>
+                <label>Sum of all numbers from 1 to <input id="result2" type="number" disabled="" placeholder="" value=""></label><br>
+                <input id="result" type="number" disabled="" placeholder="" value="">
+            </div>
         </div>
     </div>
 
     <script>
-    function calcular() {
-        var valor1 = parseInt(document.getElementById('NumberOne').value, 10);
-        function formtNumber(number) {
-            return new Intl.NumberFormat('pt-br').format(number);
+        function calcular() {
+            var valor1 = parseInt(document.getElementById('NumberOne').value, 10);
+            function formtNumber(number) {
+                return new Intl.NumberFormat('pt-br').format(number);
+            }
+            document.getElementById('result').value = (valor1 * (valor1 + 1)) / 2;
+            document.getElementById('result2').value = valor1
         }
-        document.getElementById('result').value = (valor1*(valor1 +1))/2;
-    }
 
     </script>
-    </body>
+</body>
+
 </html>
