@@ -2,8 +2,21 @@ html{
     height: 100vh;
 }
 
+body{
+    text-align: center;
+    font-family: monospace;
+}
+
 #result2 {
     border: 0px;
     background: #f0f8ff00;
     color: green;
+}
+
+h1{
+    font-size: 18px;
+}
+
+h2{
+    font-size: 18px;
 }
