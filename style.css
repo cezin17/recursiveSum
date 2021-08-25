@@ -4,19 +4,46 @@ html{
 
 body{
     text-align: center;
-    font-family: monospace;
+    font-family: 'Roboto', monospace;
+    background-color: #f3a712;
+}
+
+#result{
+    font-size: 18px;
+    border: 0px;
+    background-color: #29335c;
+    text-align: center;
+    color: #f3a712;
+    font-weight: bold;
+    border: 1px solid black;
 }
 
 #result2 {
+    font-size: 18px;
     border: 0px;
     background: #f0f8ff00;
-    color: green;
+    color: #db2b39;
+    width:max-content;
+    font-weight: bold;
+}
+
+#NumberOne{
+    background-color: #000;
+    color: #db2b39;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 1px solid black;
+    font-weight: bold;
 }
 
 h1{
-    font-size: 18px;
+    font-size: 22px;
+    color: #29335c;
+    margin-top: 100px;
 }
 
 h2{
     font-size: 18px;
+    color: #29335c;
+    margin-left: 209px;
 }
